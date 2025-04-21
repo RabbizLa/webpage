@@ -1,0 +1,45 @@
+* {
+    font-family: monospace;
+}
+
+
+
+.breadcrumbs ul {
+    list-style-type: none;
+    background-color: blanchedalmond;
+    padding: 10;
+    margin: 0;
+    overflow: hidden;
+}
+
+.breadcrumbs a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    text-align: center;
+}
+
+.breadcrumbs a:hover{
+    background-color: bisque;
+}
+
+.breadcrumbs li{
+    float: left;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav {
+    height: 70px;
+    background-color: blanchedalmond;
+
+}
+
+main{
+    font-size: 20px;
+    margin: 50px;
+}

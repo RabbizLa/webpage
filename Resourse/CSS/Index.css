@@ -1,0 +1,91 @@
+* {
+    font-family: monospace;
+}
+
+
+
+.breadcrumbs ul {
+    list-style-type: none;
+    background-color: blanchedalmond;
+    padding: 10;
+    margin: 0;
+    overflow: hidden;
+}
+
+.breadcrumbs a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    text-align: center;
+}
+
+.breadcrumbs a:hover{
+    background-color: bisque;
+}
+
+.breadcrumbs li{
+    float: left;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav {
+    height: 70px;
+    background-color: blanchedalmond;
+
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 405px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    bottom: 100%;
+    margin-left: 100px;
+    background-image: url(/Resourse/Media/sakura.jpg);
+    width: 200px;
+    height: 500px;
+    display: inline;
+    font-size:xx-large;
+    
+}
+
+.container{
+    max-width: 85%;
+    margin: 20px auto;
+}
+
+.title {
+    font-size: 25px;
+    color: blue;
+    margin: 100px;
+    text-align: center;
+
+    padding-top: 200px;
+
+} 
+
+.container .image-container{
+    padding-top: 10px;
+    columns:3 250px;
+    gap: 15px;;
+}
+
+.container .image-container img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+main {
+    margin: 20px;
+}
+
